@@ -1,7 +1,7 @@
 id,name,short,desc,cost,isBonus,isGolden,spritePath,effectPlugin,extra1,extra2,source,tags,spriteAuthor
 ,,,,,,,,,,,,,
-FM_FateOfSixtyYears,The otherwordly flowers blossom, Two hundred years after the Great Collapse. The crew hiring cost is raised to {%s} credits, the crew supply of all facilities is reduced from large to small according to the market size {%s}/{%s}/{%s} respectively.,2,FALSE,,graphics/icons/ungp/FM_FateOfSixtyYears.png,data.ungp.FM_FateOfSixtyYears,,,Fantasy worker build,,game-icons.net
-FM_PointdeviceMode,Each d-mod reduces range by {%s}.,2,FALSE,,graphics/icons/ungp/FM_PointdeviceMode.png,data.ungp.FM_PointdeviceMode,,,Pointdevice mode,,game-icons.net
+FM_FateOfSixtyYears,"The otherwordly flowers blossom, Two hundred years after the Great Collapse. The crew hiring cost is raised to {%s} credits, the crew supply of all facilities is reduced from large to small according to the market size {%s}/{%s}/{%s} respectively.",2,FALSE,,graphics/icons/ungp/FM_FateOfSixtyYears.png,data.ungp.FM_FateOfSixtyYears,,,Fantasy worker build,,game-icons.net
+FM_PointdeviceMode,"Each d-mod reduces range by {%s}.",2,FALSE,,graphics/icons/ungp/FM_PointdeviceMode.png,data.ungp.FM_PointdeviceMode,,,Pointdevice mode,,game-icons.net
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
