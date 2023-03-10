@@ -53,7 +53,7 @@
 		"FantasyBulletMod_DAE_1": "\"Speaking of which, where did all those warheads that went out of range after the battle ended go?\" \n\n -- A fantasy engineer captain who had just repelled the Ludd Path force",
 
 		"FantasyKawausoMod_I_0": "Three spherical objects that surround the ship at a certain distance will be created and can be called otters.",
-		"FantasyKawausoMod_I_1": "Each otter can remove any missile that comes within {%s/%s/%s/%s/%s} of it directly and generate soft amplitude energy",
+		"FantasyKawausoMod_I_1": "Each otter can remove any missile that comes within {%s/%s/%s/%s} of it directly and generate soft amplitude energy",
 		"FantasyKawausoMod_I_2": "For different classes of ships, the radius of action is different, and it is ineffective in case of overload or forced dissipation, while the higher the amplitude energy level is, the slower the system speed is.",
 		"FantasyKawausoMod_DAE_0": "Due to the general lack of sufficient weapon slots on Gensoukyou Manufacture-built ships, engineers from the inner side of the boundary designed this handy set of psychic energy anti-missile inserts. \n\nUnder ideal conditions, the system has few flaws other than generating some soft amplitude energy, but if a missile breaks right through the otters' defenses, the drawback of making the remaining PD weapons almost unusable in order to install additional psychic energy equipment is exposed ......",
 		"FantasyKawausoMod_DAE_1": "\"You should give up your other PD weapons after enjoying the help of the cute otter from hell!\" \n\n —— Manual for this plugin",
