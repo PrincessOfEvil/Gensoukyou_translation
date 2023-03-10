@@ -1,0 +1,41 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 42,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "FM_Yagokoro",
+    "hullMods": [
+        "FantasyKawausoMod",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Yagokoro_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "FM_LunaticBow",
+                "WS0015": "FM_LunaticBow"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Seal",
+                "WS0002": "FM_Seal",
+                "WS0007": "FM_Seal",
+                "WS0008": "FM_Seal"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Fairy_wing",
+        "FM_Fairy_wing",
+        "FM_Fairy_wing",
+        "FM_Fairy_wing",
+        "FM_Fairy_wing"
+    ]
+}

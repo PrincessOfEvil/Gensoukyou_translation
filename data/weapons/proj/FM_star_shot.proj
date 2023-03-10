@@ -1,0 +1,21 @@
+{
+	"id":"FM_star_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":32.0,
+	"width":16.0,
+	"fadeTime":0.2,
+	#"fringeColor":[255,125,125,255],
+	#"coreColor":[255,200,200,150],
+	"fringeColor":[255,255,255,235],
+	"coreColor":[200,200,200,180],
+	"glowColor":[0,170,255,75],
+	"glowRadius":35,
+	"hitGlowRadius":30,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/weapons/projects/FM_star_shot.png"
+}

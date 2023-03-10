@@ -1,0 +1,54 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "FM_Byakuren",
+    "hullMods": [
+        "targetingunit",
+        "adaptiveshields"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Byakuren_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "autopulse",
+                "WS0010": "autopulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "annihilatorpod",
+                "WS0006": "annihilatorpod",
+                "WS0007": "annihilatorpod",
+                "WS0008": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Hailstorm",
+                "WS0002": "FM_Hailstorm",
+                "WS0003": "FM_Hailstorm",
+                "WS0004": "FM_Hailstorm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "FM_Spark_pd",
+                "WS0013": "FM_Spark_pd",
+                "WS0014": "FM_Spark_pd",
+                "WS0015": "FM_Spark_pd"
+            }
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+  "hullName": "FM_Parasol",
+  "hullId": "FM_Parasol",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Parasol.png",
+  "style": "FM",
+  "height": 86,
+  "width": 78,
+  "center": [39, 43.5],
+  "collisionRadius": 61,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "blast_doors",
+    "hiressensors",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [1.5, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [1.5, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-4, -31.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-4, 31.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        39, -10.5,
+        38.5, -8
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20.5, -0],
+      "length": 36.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    30.5, -4.5,
+    38.5, -7,
+    20, -14,
+    3.5, -30,
+    3.5, -32,
+    -3.5, -38.5,
+    -8.5, -34.5,
+    -17.5, -36,
+    -12, -19,
+    -20.5, -16,
+    -12.5, -13.5,
+    -19, -9.5,
+    -41.5, -3.5,
+    -15.5, -2.5,
+    -15.5, 2.5,
+    -41.5, 3.5,
+    -19, 9.5,
+    -12.5, 13.5,
+    -20.5, 16,
+    -12, 19,
+    -17.5, 36,
+    -8.5, 34.5,
+    -3.5, 38.5,
+    3.5, 32,
+    3.5, 30,
+    20, 14,
+    38.5, 7,
+    30.5, 4.5,
+    32, 1,
+    32, -1
+  ]
+}

@@ -1,0 +1,24 @@
+{
+"id":"Gensoukyou_Daze", # required code id
+
+"name":"Gensoukyou Daze~", # required friendly name
+#Just small adjust for name and display, all other things such as ids still begin with FM_
+
+"version":"0.6.2_rc5, in dev", # required mod version
+
+"description":"Add Gensoukyou Manufacture Faction to Starsector.\nNote: This mod contains many tributes to the Shanghai Alice Group Original Work Touhou series and related derivatives.\n\nFor special thanks check special_thanks.txt [untranslated]", # required friendly mod description
+
+"gameVersion":"0.95.1a-RC6", # required starsector version this was designed for
+
+"dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+    {"id": "MagicLib", "name": "MagicLib"},
+    {"id": "shaderLib", "name": "GraphicLib"}
+  ],
+
+"author":"Authors:homejerry99  \n\nPoster:homejerry99,Forever SeventeenпјЃ(Ykaris),еЅ±д№‹е…‰/Light of Shadows,lili,AnyIDElse,еЊ—е†°жґ‹е¤§жµ·и±№ / Great Artic Seal \n\nCoder:homejerry99 (Received a lot of teaching and technical support from people in Special Thanks List),AnyIDElse (Reviewed and made numerous recommendations and OpenGL related content) \n\nMusic: All Original Work for current BGM Content:zun  Arrangement & Processing:homejerry99 \n\nSound Effects:еЅ±д№‹е…‰ / Light of Shadows(Ballistic Weapons SFX)", # author's name
+
+"modPlugin":"data.Fantasyplugin",
+
+"jars":["jars/Gensoukyou_Daze.jar"]
+}

@@ -1,0 +1,99 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME FM,,,,,,
+,,,,,,
+# greetings,,,,,,
+greetingFMFriendly,OpenCommLink,"$faction.id == fantasy_manufacturing
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Would you also like to enter the Gensoukyou in the afterlife?""
+OR
+""A future in which humanity lives in harmony with the mystery is on the horizon, and you and I are privileged to be among her first beneficiaries.""
+OR
+""Hi my friend, please allow me to introduce you to this..."" $personNameStart to settle on you for what looks like a fun retro shooting game.
+OR
+""If you have a problem with shipboard audio... Sorry, all I can say is that it's regulation.""",,
+greetingFMHostileWeaker,OpenCommLink,"$faction.id == fantasy_manufacturing
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""I'm ready to a runaway daze!, but I don't think you'll be able to escape the next chase..."" $personName isn't as panicked as you might expect, the individual has already prepared an escape plan.
+OR
+""So you're the one behind this?""$personRank With a sigh of frustration, he cut the link.
+OR
+""Wait, are you serious?""",cutCommLink:Cut off the communication,
+greetingFMHostileWeakerDefiant,OpenCommLink,"$faction.id ==  fantasy_manufacturing
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""Even if the end result is full of pain no matter what, I will fight until the end!""It seems that$personRankand does not intend to be tied down.
+OR
+""Miracles belong only to those who believe!""$personNameThe firm voice of the man came out of the message video.",cutCommLink:Cut off the communication,
+greetingFMHostileStronger,OpenCommLink,"$faction.id == fantasy_manufacturing
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""We respect our opponents, so I'm not surprised you'd open the link to see who would actually send you to Yama(Hell)""
+OR
+""its game over!""$personRank Looking at you smugly.
+OR
+""I think you may be ready for the afterlife sooner rather than later, so may you enter into Gensoukyou in the afterlife.""Sincere wishes are sent to you from the other side.
+",cutCommLink:Cut off the communication,
+greetingFMNeutral,OpenCommLink,"$faction.id == fantasy_manufacturing
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""The Sage is above you, what can I do for you?""
+OR
+""It may look like a giant corporation in name, but in reality we're not all that fancy Bourgeois...""$personName Seeing your long-standing doubts, an answer come.
+OR
+""Opened the newsletter link... I think you must be no ordinary person...""
+OR
+""Even in the Persean Realm, don't always be bound by common sense.""",,
+#END greetings,,,,,,
+,,,,,,
+# factions,,,,,,
+relLevelNeutralFM,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == fantasy_manufacturing",,"Just like other faction, Gensoukyou Manufacturing thinks you have little to do with them and everything is done according to common sense.",,
+relLevelFavorableFM,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == fantasy_manufacturing",,Gensoukyou Manufacturing thinks you're a potentially important partner and you're already getting closer to the Gensoukyou side...,,
+relLevelWelcomingFM,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == fantasy_manufacturing",,"Gensoukyou Manufacturing intends to expose you to more mysteries and extraordinary knowledge, drawing you into the Gensoukyou side as much as possible, which is welcoming.",,
+relLevelFriendlyFM,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == fantasy_manufacturing",,"Having been exposed to so much extraordinary knowledge and mystery, you are even closer to a Gensoukyou being than the ancient mystical associations, and you have been recognized by the boundaries.
+(Don't worry about what a "" boundary "" is, eh...)",,
+relLevelCooperativeFM,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == fantasy_manufacturing",,"""I have to admit you are well suited to living on the other side of the world, however you still can't easily remove the realm between you and Gensoukyou, although it would be fun... As compensation I think the Proxy on this side of the world would be more than willing to assist you commander...""
+It seems that some mysterious being is pleased with your performance.",,
+relLevelSuspiciousFM,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == fantasy_manufacturing",,Gensoukyou is very incomprehensible to you and your behaviour makes this fairly amiable group of people(?) feel very uncomfortable.,,
+relLevelInhospitableFM,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == fantasy_manufacturing",,What you've done has caused a small ruckuss and the Gensoukyou side thinks you're as bad as an Amanojyaku...,,
+relLevelHostileFM,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == fantasy_manufacturing",,"Few non-Luddic receive such treatment, and Gensoukyou Manufacturing thinks you're bad enough for the natives on the inner of the boundaries to split you in two.",,
+relLevelVengefulFM,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == fantasy_manufacturing",,"""I really don't think you're right for this mod, it's not so much a wild monster mod as a normal power fantasy mod, is it really necessary to pull this value to this level?""
+From Gap Youkai.",,
+#END factions,,,,,,
+,,,,,,
+# commission,,,,,,
+CMSNTextRejectHostile_FM,CMSNTextRejectHostile,$faction.id == fantasy_manufacturing,,"""If you can come to us in this situation and ask this kind of question... I want to make sure you're not here to humiliate us or not...""",,
+CMSNTextHasOther_FM,CMSNTextHasOther,$faction.id == fantasy_manufacturing,,"""You already have an employment agreement with $theOtherCommissionFaction, so we have good reason to deny your request to join.",,
+CMSNTextUnsuited_FM,CMSNTextUnsuited,$faction.id == fantasy_manufacturing,,"""I'm very sorry we can't go through with your request, it will require closer cooperation between us to do so...""",,
+CMSNTextSuitedPart1_FM,CMSNTextSuitedPart1,$faction.id == fantasy_manufacturing,,"""Well, good, all your information fits our requirements and we are in need of people like you to create a common future for both worlds.
+
+But in any case, signing an employment agreement is a very serious decision, it means that you have fully identified with the philosophy related to Gensoukyou Manufacture and are willing to contribute to hold on to your beliefs.
+
+Although you can resign your position at any time, this will be seen as evidence of abandonment of your beliefs and will have a bad effect on your future relationship with Gensoukyou Manufacture.""",,
+CMSNTextSuitedPart2_FM,CMSNTextSuitedPart2,$faction.id == fantasy_manufacturing,,"""It seems your beliefs is strong enough, so if it is confirmed, please sign this document.""",,
+CMSNTextWelcomePart1_FM,CMSNTextWelcomePart1,$faction.id == fantasy_manufacturing,,"""So, welcome to Gensoukyou, Human.
+
+Sage above, miracles will accompany you, and we will be your solid backing.""",,
+CMSNTextWelcomePart2_FM,CMSNTextWelcomePart2,$faction.id == fantasy_manufacturing,,"""May the Gensoukyou be with you.""",,
+CMSNTextChangeMind_FM,CMSNTextChangeMind,$faction.id == fantasy_manufacturing,,"""I can see that not everyone has the appropriate awareness, and a proper retreat may not be a bad thing.
+
+So, what else can I do for you?""",,
+CMSNResignAskToConfirm_FM,CMSNResignAskToConfirm,$faction.id == fantasy_manufacturing,,"""It seems you've had thinked this throughly... But are you sure you don't need to think about it a little more? This is working for the common future of both worlds...""",,
+CMSNResignConfirmed_FM,CMSNResignConfirmed,$faction.id == fantasy_manufacturing,,"""Well, it seems you may have found a job that fits your personality better than maintaining Gensoukyou Manufacture.
+
+You are now free to leave.""",,
+CMSNResignCancelled_FM,CMSNResignCancelled,$faction.id == fantasy_manufacturing,,"""A wise choice, and I think miracles will always be in your favor in the future.""",,
+#END commission,,,,,,
+,,,,,,
+# aiCores,,,,,,
+aiCores_turnInResponseFM,AICoresTurnedIn,$faction.id == fantasy_manufacturing,FireAll PopulateOptions,"""Although the result is good, I still want to ask, shouldn't people like you usually keep these deities for yourselves in the cargo hold?""",,
+aiCores_turnInOptionSelFM,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == fantasy_manufacturing",FireAll PopulateCoresTurnInOptions,"""Well, after all, the researcher on that side have been bickering about whether such shiny cores count as stylistic deities ...... If you are willing to provide them to us for scientific research purposes we will give you the payment you deserve.""",,
+#END aiCores,,,,,,
+,,,,,,

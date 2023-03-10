@@ -1,0 +1,44 @@
+{
+    "displayName": "Aggressive",
+    "fluxCapacitors": 23,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "FM_Yagokoro",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Yagokoro_Aggressive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "autopulse",
+                "WS0015": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Persuasion",
+                "WS0002": "FM_Persuasion"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "FM_Leaf",
+                "WS0008": "FM_Leaf"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Amanojyak_wing",
+        "FM_Amanojyak_wing",
+        "FM_Amanojyak_wing",
+        "FM_Amanojyak_wing",
+        "FM_Amanojyak_wing"
+    ]
+}

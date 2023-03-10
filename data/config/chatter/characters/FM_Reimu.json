@@ -1,0 +1,108 @@
+{
+	"name":"Hakurei Reimu",
+	"personalities":["steady", "aggressive", "reckless"],
+	"gender":["f"],
+	"chance":0,
+	"talkativeness":1.75,
+	"categoryTags":["othermedia"],
+	
+	"lines":{
+		"start":[
+			{"text":"Yes yes yes, I'm on my way..."},
+			{"text":"Don't remind me it's dangerous in space."},
+			{"text":"Speaking of which, who are they again?"},
+			{"text":"Don't worry about me!"},
+			{"text":"*The girl is praying warmly...*"},
+			{"text":"Don't worry, I'll protect you if you need it."},
+			{"text":"It's just a space battle... Right?"},
+			{"text":"You astronauts really like to play games with your lives..."},
+		],
+		"start_boss":[
+			{"text":"...Of course I'll protect you... You'd do the same thing, right?"},
+			{"text":"Experience has taught me that guys like this might just incidentally have nothing better to do."},
+			{"text":"They have a few spell cards... Ugh? No such thing?"},
+			{"text":"It's okay, my intuition is always accurate."},
+			{"text":"The lives of all the people on board? Of course I'll take care of them!"},
+			{"text":"If I can get back, I'll have to settle the score with that old hag..."},
+			{"text":"The need to fight with all my might? It's up to me to decide such things."},
+			{"text":"Is it weird to be protected by a girl? Ah... But this is obviously more convenient..."},
+		],
+		"retreat":[
+			{"text":"Just so you know, I have almost zero experience with retreats."},
+			{"text":"Nearly covered in bruises, but we can come back."},
+			{"text":"I'll protect you, I'll do my best."},
+			{"text":"Is this the so-called failure?"},
+			{"text":"I didn't play well in the battle, but at least it was easy to get you out."},
+			{"text":"Retreat to advance."},
+		],
+		"out_of_missiles":[
+			{"text":"Just because you don't have your bombs anymore doesn't mean you can't fight."},
+			{"text":"Now is the real zero P duel..."},
+		],
+		"engaged":[
+			{"text": "Now it's time for the tough talk."},
+			{"text": "All fighters are facing each other."},
+			{"text": "It's an ugly battle, but the momentum is really intense."},
+			{"text": "Still, I don't like the look of such desperation."},
+			{"text": "Let nature take its course, naturally..."},
+		],
+		"need_help":[
+			{"text":"It looks like it's going to take a little effort..."},
+			{"text":"\"I'll be right back\"? You're so considerate..."},
+			{"text":"It's true that even a genius has to retreat when faced with a commoner who's been through a lot."},
+			{"text":"I'm not as fragile as you think, am I? "}
+		],
+		"pursuing":[
+			{"text":"It would be nice if I could use my powers at times like this..."},
+			{"text":"Is there any way to trap them? "},
+			{"text":"It's almost over."},
+			{"text":"So as I've said many times, don't underestimate Reimu."},
+			{"text":"It's exciting to watch them struggle... Seems a little strange..."}
+		],
+		"running":[
+			{"text":"Whether it's a spellcard duel or here, being flexible and retreating is a must."},
+			{"text":"Retreating, retreating, retreating..."},
+			{"text":"If you have time, can you come and help me turn around?"},
+			{"text":"That's tough..."},
+		],
+		"hull_90":[
+			{"text":"The situation got interesting..."},
+			{"text":"The damage is noted... No... I'm just a little excited..."},
+			{"text":"What a strange feeling..."},
+			{"text":"I'm fine, for now..."},
+		],
+		"hull_50":[
+			{"text":"I'm alright with Shinigami, but I don't really want to see her now..."},
+			{"text":"...I'm trying to hold it together..."},
+			{"text":"Thanks for asking, I'm not fine... But only for a while..."},
+			{"text":"The feeling of killing and fighting..."},
+			{"text":"Is the battlefield beautiful at times like this? "},
+		],
+		"hull_30":[
+			{"text":"...Truly magnificent..."},
+			{"text":"Looks like you'll have to protect me..."},
+			{"text":"...Nearly at the end of the line..."},
+			{"text":"Something like a memory came into my head..."},
+			{"text":"It seems that I can't continue to immerse myself in the battle..."},
+		],
+		"overload":[
+			{"text":"Am I going to die if I can't handle it?"},
+			{"text":"It's as beautiful as a spell card..."},
+			{"text":"Don't worry, I'm just a little mentally shaken."},
+			{"text":"...Can anyone tell me what's going on?"},
+		],
+		"death":[
+			{"text":"...Sorry, I seem to have been put into the escape pod unconscious..."},
+			{"text":"...Why is it so beautiful..."},
+			{"text":"...I didn't protect everyone..."},
+		],
+		"victory":[
+			{"text":"It's over."},
+			{"text":"As usual."},
+			{"text":"Is this the daily routine?"},
+			{"text":"Feeling good."},
+			{"text":"...I'm back, is the battle over?"},
+			{"text":"So, the incident is resolved, and the routine returns."}
+		]
+	}
+}

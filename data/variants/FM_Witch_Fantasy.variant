@@ -1,0 +1,30 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 20,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "FM_Witch",
+    "hullMods": [
+        "FantasyTraditionalMod",
+        "targetingunit",
+        "adaptiveshields"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Witch_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FM_Masterspark"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "typhoon",
+                "WS0004": "typhoon"
+            }
+        }
+    ]
+}

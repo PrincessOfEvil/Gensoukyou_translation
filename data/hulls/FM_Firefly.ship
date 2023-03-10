@@ -1,0 +1,112 @@
+{
+  "hullName": "FM_Firefly",
+  "hullId": "FM_Firefly",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/FM_Firefly.png",
+  "style": "FM",
+  "height": 90,
+  "width": 66,
+  "center": [33, 45.5],
+  "collisionRadius": 65.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": 0,
+      "locations": [15.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 60,
+      "locations": [-7.5, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -60,
+      "locations": [-7.5, -14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-18.5, 16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-18.5, -16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, -4],
+      "length": 31.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33, 4],
+      "length": 31.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    23.5, -6.5,
+    43, -7,
+    35.5, -12,
+    10, -18,
+    4, -14.5,
+    5, -28.5,
+    1.5, -33,
+    -15, -16,
+    -22.5, -16,
+    -42.5, -7.5,
+    -32.5, -6.5,
+    -32.5, -1.5,
+    -22.5, -1.5,
+    -22.5, 1.5,
+    -22.5, -1.5,
+    -22.5, 1.5,
+    -32.5, 1.5,
+    -32.5, 6.5,
+    -42.5, 7.5,
+    -22.5, 16,
+    -15, 16,
+    1.5, 33,
+    5, 28.5,
+    4, 14.5,
+    10, 18,
+    35.5, 12,
+    43, 7,
+    23.5, 6.5
+  ]
+}

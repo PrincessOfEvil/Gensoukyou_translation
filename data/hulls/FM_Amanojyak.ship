@@ -1,0 +1,72 @@
+{
+  "hullName": "FM_Amanojyak",
+  "hullId": "FM_Amanojyak",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Amanojyaku.png",
+  "style": "FM_fighter",
+  "height": 42,
+  "width": 40,
+  "center": [20, 15],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "FM_Amanojyak_above"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4.5, -0],
+      "renderOrderMod": 120
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 4],
+      "length": 11,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-12.5, -4],
+      "length": 11,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    14.5, -5,
+    3.5, -7,
+    1.5, -15,
+    -5, -17,
+    -11, -12.5,
+    -12.5, -1.5,
+    -12.5, 1.5,
+    -11, 12.5,
+    -5, 17,
+    1.5, 15,
+    3.5, 7,
+    14.5, 5
+  ]
+}

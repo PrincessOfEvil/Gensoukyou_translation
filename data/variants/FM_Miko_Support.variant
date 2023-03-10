@@ -1,0 +1,29 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "FM_Miko",
+    "hullMods": [
+        "eccm",
+        "targetingunit",
+        "FantasyPlayerMod",
+        "hardened_subsystems",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Miko_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "hveldriver"}
+        }
+    ]
+}

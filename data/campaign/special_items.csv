@@ -1,0 +1,4 @@
+name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
+,,,,,,,,,,,,,
+Gensoukyou Universal Blueprint Pack,FM_com_bp,package_bp,,45000,1000,1,graphics/icons/cargo/blueprint_hightech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,FM_com,Allow manufacturing ships and weapons from Gensoukyou Manufacture,2001
+,,,,,,,,,,,,,

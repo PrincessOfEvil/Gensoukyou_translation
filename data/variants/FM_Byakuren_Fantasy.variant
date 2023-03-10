@@ -1,0 +1,39 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 43,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "FM_Byakuren",
+    "hullMods": [
+        "FantasyBulletMod",
+        "targetingunit",
+        "FantasyKawausoMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Byakuren_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "autopulse",
+                "WS0010": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Stardust",
+                "WS0002": "FM_Stardust",
+                "WS0003": "FM_Stardust",
+                "WS0004": "FM_Stardust",
+                "WS0005": "FM_Stardust",
+                "WS0006": "FM_Stardust",
+                "WS0007": "FM_Stardust",
+                "WS0008": "FM_Stardust"
+            }
+        }
+    ]
+}

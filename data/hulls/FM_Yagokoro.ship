@@ -1,0 +1,477 @@
+{
+  "hullName": "FM_Yagokoro",
+  "hullId": "FM_Yagokoro",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/FM_Yagokoro.png",
+  "style": "FM",
+  "height": 440,
+  "width": 320,
+  "center": [160, 220],
+  "collisionRadius": 230.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 227.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "FantasyYagokoroMod"
+  ],
+  "builtInWeapons": {
+    "WS0016": "blinker_green",
+    "WS0017": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [62.5, 50.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -0,
+      "locations": [62.5, -50.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [129, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [129, -22]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [34, -16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [34, 16]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 45,
+      "locations": [-15, 94]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -45,
+      "locations": [-15, -94]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -150,
+      "locations": [-60, -10]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 150,
+      "locations": [-60, 10]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-89, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [18, 64]
+    },
+    {
+      "id": "WS0015",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -45,
+      "locations": [18, -64]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -0,
+      "locations": [69.5, -3.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [69.5, 3.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53, 5,
+        53, -4.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        83, 16,
+        67.5, 16
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        83, -17,
+        67, -16.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -64.5, -68.5,
+        -56.5, -68.5
+      ]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -64, 68.5,
+        -57, 68.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57.5, 102],
+      "length": 60,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57.5, -102],
+      "length": 60,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-112, 17.5],
+      "length": 40.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-112, -17.5],
+      "length": 40.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48.5, 89.5],
+      "length": 39.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48.5, -89.5],
+      "length": 39.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67.5, 121.5],
+      "length": 35,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67.5, -121.5],
+      "length": 35,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-109.5, 19.5],
+      "length": 40.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-109.5, -19.5],
+      "length": 40.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-143.5, 10.5],
+      "length": 44,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-143.5, -10.5],
+      "length": 44,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-141.5, 12.5],
+      "length": 37.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-141.5, -12.5],
+      "length": 37.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-180.5, 4],
+      "length": 14.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-180.5, -4],
+      "length": 14.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    69.5, -3.5,
+    73, -7.5,
+    92, -7.5,
+    96, -12,
+    104, -12,
+    108.5, -9,
+    115, -9,
+    116.5, -7.5,
+    129.5, -7.5,
+    131, -5.5,
+    154, -5.5,
+    175.5, -5.5,
+    175.5, -11,
+    154.5, -23,
+    154.5, -31,
+    88, -66,
+    88, -69,
+    49, -89,
+    43.5, -89,
+    38, -93,
+    37, -97,
+    32, -105,
+    16.5, -105,
+    -1.5, -117,
+    -2, -120.5,
+    -40, -142,
+    -52, -142,
+    -53, -139.5,
+    -72, -137.5,
+    -72, -131.5,
+    -67, -127,
+    -67, -115.5,
+    -59.5, -114.5,
+    -59.5, -97,
+    -56.5, -94.5,
+    -49.5, -94,
+    -50, -87.5,
+    -45.5, -84.5,
+    -35.5, -61.5,
+    -39.5, -61.5,
+    -42.5, -68,
+    -51, -68,
+    -55, -75.5,
+    -66, -75.5,
+    -69, -68.5,
+    -82.5, -68.5,
+    -86.5, -65.5,
+    -86.5, -60.5,
+    -94.5, -53.5,
+    -97, -53.5,
+    -100, -50.5,
+    -104.5, -50.5,
+    -121.5, -42.5,
+    -121.5, -36.5,
+    -97.5, -36.5,
+    -97.5, -30,
+    -92.5, -22,
+    -109, -22,
+    -115.5, -15.5,
+    -139, -15.5,
+    -145.5, -9,
+    -178, -8,
+    -183.5, -1.5,
+    -183.5, 1.5,
+    -178, 8,
+    -145.5, 9,
+    -139, 15.5,
+    -115.5, 15.5,
+    -109, 22,
+    -92.5, 22,
+    -97.5, 30,
+    -97.5, 36.5,
+    -121.5, 36.5,
+    -121.5, 42.5,
+    -104.5, 50.5,
+    -100, 50.5,
+    -97, 53.5,
+    -94.5, 53.5,
+    -86.5, 60.5,
+    -86.5, 65.5,
+    -82.5, 68.5,
+    -69, 68.5,
+    -66, 75.5,
+    -55, 75.5,
+    -51, 68,
+    -42.5, 68,
+    -39.5, 61.5,
+    -35.5, 61.5,
+    -45.5, 84.5,
+    -50, 87.5,
+    -49.5, 94,
+    -56.5, 94.5,
+    -59.5, 97,
+    -59.5, 114.5,
+    -67, 115.5,
+    -67, 127,
+    -72, 131.5,
+    -72, 137.5,
+    -53, 139.5,
+    -52, 142,
+    -40, 142,
+    -2, 120.5,
+    -1.5, 117,
+    16.5, 105,
+    32, 105,
+    37, 97,
+    38, 93,
+    43.5, 89,
+    49, 89,
+    88, 69,
+    88, 66,
+    154.5, 31,
+    154.5, 23,
+    175.5, 11,
+    175.5, 5.5,
+    154, 5.5,
+    131, 5.5,
+    129.5, 7.5,
+    116.5, 7.5,
+    115, 9,
+    108.5, 9,
+    104, 12,
+    96, 12,
+    92, 7.5,
+    73, 7.5,
+    69.5, 3.5
+  ]
+}

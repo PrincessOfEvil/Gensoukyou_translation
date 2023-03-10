@@ -1,0 +1,4 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+,,,,,,,
+Paradise Science,FM_PhantomFactory,,TRUE,data.campaign.econ.FM_PhantomFactory,"A large number of products above the current level of technology in the Sector are widely used on this planet, considerably improving the quality of life of the local population and alleviating pollution, and increasing industrial production. The only problem may be that many of the technologies are implemented in a somewhat bizarre way, but that's clearly irrelevant.",graphics/icons/markets/FM_PhantomFactory.png,110
+,,,,,,,

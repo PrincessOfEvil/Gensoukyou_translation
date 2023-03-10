@@ -1,0 +1,57 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 28,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "FM_Byakuren",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "FantasyPlayerMod"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Byakuren_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "FM_SilverBlade",
+                "WS0010": "FM_SilverBlade"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "FM_SkySerpent_M",
+                "WS0006": "FM_SkySerpent_M",
+                "WS0007": "FM_SkySerpent_M",
+                "WS0008": "FM_SkySerpent_M"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Persuasion",
+                "WS0002": "FM_Persuasion",
+                "WS0003": "FM_Persuasion",
+                "WS0004": "FM_Persuasion"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "FM_Spark_pd",
+                "WS0013": "FM_Spark_pd",
+                "WS0014": "FM_Spark_pd",
+                "WS0015": "FM_Spark_pd",
+                "WS0017": "FM_Spark_pd",
+                "WS0018": "FM_Spark_pd"
+            }
+        }
+    ]
+}

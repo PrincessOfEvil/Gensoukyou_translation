@@ -1,0 +1,30 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 30,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "FM_Konpaku",
+    "hullMods": ["FantasySageMod"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Konpaku_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FM_Hailstorm",
+                "WS0006": "FM_Hailstorm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Spark_heavy",
+                "WS0005": "FM_Spark_heavy"
+            }
+        }
+    ],
+    "wings": []
+}

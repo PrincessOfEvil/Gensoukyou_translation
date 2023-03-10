@@ -1,0 +1,71 @@
+{
+  "hullName": "FM_Halfghost",
+  "hullId": "FM_Halfghost",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Halfghost.png",
+  "style": "FM_fighter",
+  "height": 60,
+  "width": 34,
+  "center": [17, 36],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 32,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-0.5, 8.5],
+      "length": 14.5,
+      "width": 4,
+      "angle": 136.5,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-0.5, -8.5],
+      "length": 14.5,
+      "width": 4,
+      "angle": -136.5,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-2, 7],
+      "length": 14.5,
+      "width": 4,
+      "angle": 136.5,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-2, -7],
+      "length": 14.5,
+      "width": 4,
+      "angle": -136.5,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    20, -5,
+    13.5, -12,
+    -3.5, -12,
+    -8.5, -4,
+    -31.5, -1.5,
+    -31.5, 1.5,
+    -8.5, 4,
+    -3.5, 12,
+    13.5, 12,
+    20, 5
+  ]
+}

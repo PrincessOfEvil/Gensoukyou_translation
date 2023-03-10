@@ -1,0 +1,185 @@
+{
+  "hullName": "FM_Satori",
+  "hullId": "FM_Satori",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/FM_Satori.png",
+  "style": "FM",
+  "height": 224,
+  "width": 160,
+  "center": [80, 112],
+  "collisionRadius": 126.5,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 119.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FantasyBasicMod",
+    "FantasySatoriMod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [36.5, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [4.5, -4.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-36, -19]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-48, 55]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-48, -55]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-95, -1.5],
+      "length": 45.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-95, 1.5],
+      "length": 45.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-91, -4],
+      "length": 39.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-91, 4],
+      "length": 39.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88.5, -6.5],
+      "length": 31.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-88.5, 6.5],
+      "length": 31.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85.5, -8.5],
+      "length": 27,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85.5, 8.5],
+      "length": 27,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    52, -3.5,
+    65, -3.5,
+    57, -12,
+    49, -14.5,
+    41.5, -24.5,
+    37.5, -24.5,
+    38, -16.5,
+    26.5, -19,
+    26, -24.5,
+    19, -24.5,
+    14, -28,
+    -11, -39.5,
+    -23, -41.5,
+    -23, -43.5,
+    -1.5, -43.5,
+    -45.5, -65.5,
+    -54.5, -65.5,
+    -63, -52.5,
+    -54, -45.5,
+    -57.5, -38.5,
+    -57.5, -29,
+    -68.5, -29,
+    -74, -24,
+    -80, -23.5,
+    -90.5, -11,
+    -84.5, -10,
+    -96, -1,
+    -96, 1,
+    -84.5, 10,
+    -90.5, 11,
+    -80, 23.5,
+    -74, 24,
+    -68.5, 29,
+    -57.5, 29,
+    -57.5, 38.5,
+    -54, 45.5,
+    -63, 52.5,
+    -54.5, 65.5,
+    -45.5, 65.5,
+    -1.5, 43.5,
+    -23, 43.5,
+    -23, 41.5,
+    -11, 39.5,
+    14, 28,
+    28.5, 20,
+    52.5, 16.5,
+    52, 24.5,
+    54, 24.5,
+    63, 15,
+    78, 13,
+    92, 1,
+    52, 1
+  ]
+}

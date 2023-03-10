@@ -1,0 +1,51 @@
+{
+  "hullName": "FM_Tatara_drone",
+  "hullId": "FM_Tatara_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FM_Tatara_drone.png",
+  "style": "FM_fighter",
+  "height": 40,
+  "width": 40,
+  "center": [20, 18.5],
+  "collisionRadius": 41.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 39,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shield_always_on",
+    "fluxshunt"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [4.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5, -0],
+      "length": 14,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    9, -4.5,
+    1, -14.5,
+    -2, -15.5,
+    -2, -8,
+    -12.5, -2,
+    -12.5, 2,
+    -2, 8,
+    -2, 15.5,
+    1, 14.5,
+    9, 4.5
+  ]
+}

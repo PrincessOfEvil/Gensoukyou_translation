@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FM_Parasol",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Parasol_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_IcicleFall",
+                "WS0002": "FM_IcicleFall"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "FM_SkySerpent_S",
+                "WS0004": "FM_SkySerpent_S"
+            }
+        }
+    ]
+}

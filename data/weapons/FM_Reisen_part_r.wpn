@@ -1,0 +1,22 @@
+{
+    "id":"FM_Reisen_part_r",
+    "specClass":"beam",
+    "type":"DECORATIVE",
+    "size":"SMALL",
+    "showDamageWhenDecorative":true,
+    "turretSprite":"graphics/ships/FM_Reisen/FM_Reisen_part_r.png",
+    "hardpointSprite":"graphics/ships/FM_Reisen/FM_Reisen_part_r.png",
+    "renderBelowAllWeapons":false,
+    "turretOffsets":[0, 0],
+    "turretAngleOffsets":[0],
+    "hardpointOffsets":[0, 0],
+    "hardpointAngleOffsets":[0],
+    "fringeColor":[255,255,255,255],
+    "coreColor":[255,255,255,255],
+    "glowColor":[255,255,255,255],
+    "textureType":ROUGH,
+    "textureScrollSpeed":1.0,
+    "pixelsPerTexel":5.0,
+	"height": 150,
+	"width": 19
+}

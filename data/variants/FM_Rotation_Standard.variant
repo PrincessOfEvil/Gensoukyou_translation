@@ -1,0 +1,20 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "FM_Rotation",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Rotation_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "ALTERNATING",
+        "weapons": {
+            "WS0001": "FM_Persuasion",
+            "WS0002": "FM_Persuasion"
+        }
+    }],
+    "wings": []
+}

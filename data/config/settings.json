@@ -1,0 +1,57 @@
+{
+
+    "designTypeColors":{
+	    "Gensoukyou Manufacture":[219,40,40,255],
+		"Touhou Project":[219,40,40,255],
+	    "Gensoukyou Manufacture - Undying Moon":[0,90,204,255],
+	    "Gensoukyou Manufacture - Wind God Faith":[50,246,209,255],
+	    "Gensoukyou Manufacture - Undefined Fantastic Object":[158,54,255,255],
+	    "Gensoukyou Manufacture - Suborbital Sun":[255,6,104,255],
+	    "Gensoukyou Manufacture - Night Sakura":[255,162,227,255],
+    },
+    "graphics":{
+        "fx":{
+              "FM_trail_1":"graphics/fx/FM_laser_fringe.png",
+			        "FM_trail_2":"graphics/fx/FM_trail_2.png",
+			        "FM_trail_3":"graphics/fx/FM_trail_3.png",
+              "FM_trail_4":"graphics/fx/FM_trail_4.png",
+              "FM_ventffect_1":"graphics/fx/FM_radial_fx_test.png",
+            "FM_modeffect_1":"graphics/fx/FM_modeffect_1.png",
+            "FM_modeffect_2":"graphics/fx/FM_modeffect_2.png",
+            "FM_modeffect_3":"graphics/fx/FM_modeffect_3.png",
+            "FM_modeffect_4":"graphics/fx/FM_modeffect_4.png",
+            "FM_modeffect_5":"graphics/fx/FM_modeffect_5.png",
+            "FM_modeffect_6":"graphics/fx/FM_modeffect_6.png",
+
+            "FM_DiamondParticle3DTest_ring":"graphics/fx/beam_laser_fringe.png",
+            #"FM_DiamondParticle3DTest_ring":"graphics/fx/beamfringeb.png",
+
+            "FM_shieldinner":"graphics/fx/shields256.png",
+            "FM_shieldring":"graphics/fx/shields256ringb.png"
+
+
+
+            },
+
+    "misc":{
+
+            "FM_Opposition_proj_sprite":"graphics/weapons/projects/FM_Opposition_proj.png"
+
+            },
+		"intel":{
+
+		    "FM_Reimu":"graphics/portraits/FM_portrait_event01.png"
+
+		    },
+
+        "blueprint_packages":{
+             "FM_com_bp":"graphics/icons/FM_com_package.png"
+            },
+
+    },
+    "plugins":{
+      "FM_PsiEffectScript":"data.utils.FM_PsiEffectScript",
+      "FM_ProjectEffect":"data.utils.FM_ProjectEffect",
+
+    }
+}

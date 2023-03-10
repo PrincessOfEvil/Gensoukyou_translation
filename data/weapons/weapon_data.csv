@@ -1,0 +1,69 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+#ENERGY_SMALL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icicle Fall,FM_IcicleFall,1,,300,600,,60,50,0,50,6,,,,ENERGY,60,,0.5,0,1,0.1,3,12,1,2,,400,,,,,,,"energy6, FM_com , FM_weapon",,Touhou Project,,General,,,,,When the projectile reaches a certain distance from the launcher (usually the weapon's range) it splits into several ({%s}) EMP projectiles,30 Energy,,,,1011
+Spark PD,FM_Spark_pd,0,,600,700,180,,,0,100,5,16,1,,ENERGY,,110,0,0,0.3,0.1,,,,,10000,,,,,,,"PD,ANTI_FTR","pd5, beam5, FM_com, FM_weapon",,Touhou Project,,Point Defense,,,,,,,,,,1003
+Illusion Flashlight,FM_IllusionLaser_S,0,,200,800,120,,,0,30,5,,,,HIGH_EXPLOSIVE,,90,0.1,0.1,,,,,,,10000,,,,,,,,"beam10, LR, FM_com, FM_weapon",,Touhou Project,,General,,,,,,,,,,1006
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#ENERGY_MEDIUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Persuasion Seal,FM_Persuasion,1,,2500,700,,40,0,1,15,12,,,,ENERGY,40,,1,2,30,0.05,0,5,0.5,5,,1200,,,10,,,,"energy12, rare_bp, FM_weapon",,Touhou Project,,Anti Shield,,,,,Whenever the target is hit {%s} times, a single {%s} damage missile is generated, which looks like some kind of technology that is beyond the norm in the Astral Plane,3 | 1 | 30 Energy,,,,1001
+Blade Autocannon,FM_Blade_ac,2,,2250,600,,600,0,40,10,12,,,,ENERGY,720,,1,4,3,0.15,0,6,1.2,3,,700,,,300,,,,"energy12, rare_bp, FM_weapon",,Touhou Project,,Strike,,,,,"When the projectiles reach certain distances, it will unfold into a concentrated mass of projectiles that dealt ({%s}) damage with a total damage being more or less approximately the same.", 15 | Energy,,,,1004
+Blade Autocannon (High Delay),FM_Blade_ac_fighter,2,,2250,400,,350,0,40,10,12,,,,ENERGY,60,,1,1.75,1,0.15,0,6,1.2,3,,700,,,300,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Touhou Project,,Strike,,,,,"After flying a certain distance, it will unfold into a concentrated mass of single shot with low damage, but the total amount of damage is close to",,,,,1004
+Stardust Caster,FM_Stardust,1,,3000,700,,240,,10,25,11,,,,ENERGY,400,,1.2,1,1,,,,,,,600,,,,,,,"energy10, FM_com, FM_weapon",,Touhou Project,,Mid-Range Support,,,,,The warhead will fly a certain distance and start releasing {%s} rounds of {%s} damage every {%s} of the automatic missile barrage, 100 distance | 2 | 45 energy ,,,,1013
+Hailstorm,FM_Hailstorm,2,,3000,700,,150,130,0,20,13,,,,ENERGY,190,,0.4,0.9,4,0.1,8,20,2,1.5,,700,,,,,,,"energy13, rare_bp, utility13, FM_weapon",,Touhou Project,,General,,,,,"When the projectile travels approximately {%s} of its range, it splits into ten individual projectiles that deal a small amount of {%s} EMP damage.",75% | 15 Energy,,,,1015
+Seal,FM_Seal,0,,2000,1000,,100,,10,20,10,,,,ENERGY,160,,0.5,1,3,0.7,0,10,2,5,,400,,,30,,,,"energy10, LR, FM_com, FM_weapon",,Touhou Project,,Long Range Support,,,,,Weak homing capabilities,,,,,1005
+Heavy Spark,FM_Spark_heavy,1,,1500,800,600,,,0,20,10,3,0.3,,ENERGY,,540,0.25,0.05,1,0.05,,,,,10000,,,,,,,,"energy10, beam10, FM_com , FM_weapon",,Touhou Project,,General,,,,,,,,,,1009
+Illusion Laser,FM_IllusionLaser_M,1,,2000,900,360,,,0,30,10,,,,HIGH_EXPLOSIVE,,320,0.2,0.2,,,,,,,10000,,,,,,,,"beam10, LR, FM_com, FM_weapon",,Touhou Project,,Anti Armor,,,,,,,,,,1012
+Flying Leaf,FM_Leaf,0,,2250,450,,45,200,0,60,9,20,4,10,ENERGY,45,,0.05,0.05,5,0.1,0,4,0.5,1,,1350,,,,,,"ANTI_FTR, PD","energy10, pd10, utility9, FM_com, FM_weapon",,Touhou Project,,General PD,,,,,"When hitting an enemy missile or fighter will generate an arcing strike that does exactly the same damage as EMP as a single-fire round to another enemy missile or fighter within {%s} range, and will not trigger if there is no available target",150,,,,22.75
+Flying Leaf (High Delay),FM_Leaf_fighter,0,,2250,550,,45,200,0,60,9,,,,ENERGY,30,,0.05,0.55,5,0.1,0,4,0.5,1,,1350,,,,,,"SYSTEM, SHOW_IN_CODEX, ANTI_FTR, PD","no_sell, no_drop",,Touhou Project,,General PD,,,,,"When hitting an enemy missile or fighter will generate an arcing strike that does exactly the same damage as EMP as a single-fire round to another enemy missile or fighter within {%s} range, and will not trigger if there is no available target",150,,,,22.75
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#ENERGY_LARGE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Silver Knife,FM_SilverBlade,1,,4500,800,,150,,0,20,20,,,,ENERGY,140,,0.2,1.8,8,0.1,4,4,0,0,,900,,5,,,,,"energy18, FM_com, FM_weapon",,Touhou Project,,General,,,,,,,,,,1014
+Lunatic Bow,FM_LunaticBow,2,,5000,1000,,500,,300,3,22,10,0.25,5,ENERGY,1000,,0.35,0.4,,,,,,,,750,,,400,,,,"energy22, LR, rare_bp, FM_weapon",,Touhou Project,,Long Range Strike,,,,,When it hits a ship, it will deal an additional {%s} additional {%s} damage to the surrounding area, 4 | 100 Energy,,,,1010
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MISSILE_SMALL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Opposition Torpedo,FM_Opposition,1,,300,1100,,1000,,30,10,4,2,,,ENERGY,0,,0,5,1,,0,0,0,0,,25,75,3.5,300,,,"GUIDED_POOR, STRIKE","strike4, missile0, rare_bp, FM_weapon",,Touhou Project,,Torpedo,Very Fast,Two-Staged Guidances,,,,,,,TRUE,1002
+Opposition Torpedo (Bomber),FM_Opposition_fighter,1,,300,1100,,1000,,30,10,4,1,,,ENERGY,0,,0,5,1,,0,0,0,0,,25,75,3.5,300,,,"GUIDED_POOR, STRIKE, SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Touhou Project,,Torpedo,Very Fast,Two-Staged Guidances,,,,,,,TRUE,1002
+Sky Serpent MRM Launcher,FM_SkySerpent_S,0,,300,3000,,375,200,10,20,5,8,,,HIGH_EXPLOSIVE,0,,0,7,2,0.3,0,0,0,,,700,700,12.5,100,,,DO_NOT_AIM,"missile13, FM_weapon, FM_com",,Touhou Project,,Finisher,Fast,Two-Staged Guidances,,,,,,,TRUE,1008
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MISSILE_MEDIUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sky Serpent MRM Pod,FM_SkySerpent_M,1,,1200,3000,,375,200,10,10,11,40,,,HIGH_EXPLOSIVE,0,,0,8,4,0.2,0,0,0,,,700,700,12.5,100,,,DO_NOT_AIM,"missile13, FM_weapon, FM_com",,Touhou Project,,Finisher,Fast,Two-Staged Guidances,,,,,,,TRUE,1007
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MISSILE_LARGE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yomushi,FM_Nightbugs,2,,7500,2000,,13500,,,20,28,17,,,FRAGMENTATION,0,,0.33,7,1,0.33,,,,,,300,300,20,3000,,,"DO_NOT_CONSERVE, DO_NOT_AIM","missile28, LR, rare_bp, FM_weapon",,Touhou Project,,Anti Missile,,Poor,,,"The Launched Projectiles cannot be intercepted and collides, after traveling a certain distances it'll slow down and when it reach low speed it'll releases a large number of Decoy which would be activated after a certain period of time, its to be noted that the inactive decoy would deals {%s}  {%s} damage",225 |Fragment,,,,23
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#TEST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lily(Not Yet Available),FM_Lily,3,,8000,1000,1500,,1000,0,7,25,,,,ENERGY,,2000,0.5,1,1,4,,,,,10000,,,,,,,SYSTEM,,,Touhou Project,,Suppression,,,,,,,,,,27
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#SYSTEM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Master Spark,FM_Masterspark,0,,8000,800,1400,,,0,7,,,,,ENERGY,,2100,1,3,2,1,10,,,,10000,,,,,,,"FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","no_sell, no_drop",,Touhou Project,,Suppression,,,,,Reduces maneuverability while firing or cooling down {%s},50%,,,,1101
+Clearance Warhead,FM_ClearanceMunitions,0,,100,600,,750,,600,0,,1,,,ENERGY,0,,0,1,1,,0,0,0,0,,50,30,10,300,,,"SYSTEM, STRIKE, ANTI_FTR, PD, SHOW_IN_CODEX","no_sell, no_drop",,Touhou Project,,Multipurpose Strike,Very Slow,None,,,,,,,TRUE,3.2
+Miniature Lance,FM_DollsLance,0,,,400,150,,,0,100,,,,,ENERGY,,50,0,0.5,0.5,,,,,,2400,,,,,,,"SYSTEM, PD, SHOW_IN_CODEX","no_sell, no_drop",,Touhou Project,,Point Defense,,,,,Deals a small {%s} damage on hit,50 Fragment,,,,17
+Spotlight on Tripwire,FM_DollsWire,0,,,600,50,,200,0,100,,,,,ENERGY,,50,0,1.25,1.25,,,,,,800,,,,,,,"SYSTEM, PD, SHOW_IN_CODEX","no_sell, no_drop",,Touhou Project,,Stun,Rather Slow,,,,"Every {%s} when it hits the hull, it will have a {%s} chance to deal an EMP arcing blow.", 0.2s | 33% ,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#弹幕与战术系统衍生,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stardust,FM_star_weapon_1,0,,,500,,60,,,,,,,,ENERGY,0,,0,0,4,0,,,,,,0,0,4,,,,SYSTEM,,,,,,,,,,,,,,,
+Mothdust,FM_star_weapon_2,0,,,800,,45,,,,,,,,ENERGY,0,,0,0,4,0,,,,,,400,400,4,,,,SYSTEM,,,,,,,,,,,,,,,
+Ice Crystal S,FM_ice_weapon_s,0,,,250,,30,25,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,800,800,1,,,,SYSTEM,,,,,,,,,,,,,,,
+Ice Crystal M,FM_ice_weapon_m,0,,,400,,15,25,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,800,800,1,,,,SYSTEM,,,,,,,,,,,,,,,
+Knife,FM_Blade_weapon,0,,,200,,20,0,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,500,500,1,,,,SYSTEM,,,,,,,,,,,,,,,
+Uniformly Accelerated Bullets,FM_accball,0,,,900,,100,,0,0,0,,,,ENERGY,0,,0,0,1,0,0,0,0,,,2,2,2,0,,,SYSTEM,,,,,,,,,,,,,,,
+Uniformly Decelerated Bullets,FM_decball,0,,,900,,450,,0,0,0,,,,FRAGMENTATION,0,,0,0,1,0,0,0,0,,,100,600,2,0,,,SYSTEM,,,,,,,,,,,,,,,
+Opposition Warhead,FM_Opposition_warhead_weapon,0,,,1200,,1000,0,0,0,0,,,,ENERGY,0,,0,0,4,0,0,0,0,,,600,600,1.5,,,,SYSTEM,,,,,,,,,,,,,,,
+Gross Jade System Weapon,FM_Kedama_system_weapon,0,,,600,,75,,100,0,0,,,,HIGH_EXPLOSIVE,0,,0,0,4,0,0,0,0,,,600,600,1.2,,,,SYSTEM,,,,,,,,,,,,,,,
+Onigiri SRM (Built-in),FM_PdMissile_builtin,0,,,1000,,225,,15,50,,,,,FRAGMENTATION,0,,0,9,3,0.2,0,0,0,0,,500,100,4,50,,,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM",,,,,,,,,,,,,,,10
+Lunatic Bow Breaker,FM_LunaticBow_minelayer,0,,,,,100,0,25,,,,,,ENERGY,0,,,,1,,,,,,,0,0,20,1000,,,SYSTEM,,,,,,,,,,,,,,,38.5
+Persuasion Needle Extra,FM_Persuasion_extra,0,,,1000,,30,,0,50,,,,,ENERGY,0,,0,9,3,0.2,0,0,0,0,,700,100,3,50,,,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM",,,,,,,,,,,,,,,10
+Sacrifice Protocol Breaker,FM_Suicidepact_minelayer,0,,,,,300,0,25,,,,,,HIGH_EXPLOSIVE,0,,,,1,,,,,,,0,0,20,1000,,,SYSTEM,,,,,,,,,,,,,,,38.5
+Wave Particle Firework Transmitter FM (Built-in),FM_BBA_built_in,0,,,500,,1000,,,,,1,0.03,,ENERGY,0,,0,1,1,0,,,,,,200,200,30,,,,SYSTEM,,,,,,,,,,The mother warhead cannot harm the entity nor can it be intercepted, relying on the bullet head to cause extremely erratic kill damage,,,,,
+Imperial Letter MRM,FM_Amulet_B,0,,200000,1000,,70,,25,30,,0,0,,ENERGY,0,,0,10,10,0.1,0,0,0,0,,800,50,3,100,,,SYSTEM,"no_sell, no_drop",FM_Amulet,Touhou Project,,Suppression,,,,,,,,,,
+Mochi Strike,FM_dumplingstrike,0,,200000,1000,,150,,25,30,,,,,ENERGY,0,,0,10,10,0.1,0,0,0,0,,300,50,20,100,,,SYSTEM,,,,,,,,,,,,,,,
+Wolf's Fang,FM_WolfsFang,0,,200000,1000,,150,150,0,0,,,,,FRAGMENTATION,0,,0,10,10,0.1,0,0,0,0,,800,50,20,200,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#其他,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+points,FM_Alice,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+Amanojyaku Cover,FM_Amanojyak_above,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+Light,FM_light1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
+FM_Reisen_part_r,FM_Reisen_part_r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+FM_Reisen_part_l,FM_Reisen_part_l,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+FM_Reisen_cover1,FM_Reisen_cover1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+DecoEffect_1,FM_modeffect_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,46

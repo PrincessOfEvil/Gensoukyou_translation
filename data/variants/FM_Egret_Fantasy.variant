@@ -1,0 +1,42 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 9,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FM_Egret",
+    "hullMods": [
+        "expanded_deck_crew",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Egret_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "taclaser",
+                "WS0003": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "FM_Spark_pd",
+                "WS0005": "FM_Spark_pd"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Fairy_bomb_wing",
+        "FM_Fairy_bomb_wing",
+        "FM_Amanojyak_wing"
+    ]
+}

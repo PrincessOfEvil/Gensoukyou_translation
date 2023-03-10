@@ -1,0 +1,47 @@
+{
+    "displayName": "Fantasy",
+    "fluxCapacitors": 50,
+    "fluxVents": 38,
+    "goalVariant": true,
+    "hullId": "FM_Yagokoro",
+    "hullMods": [
+        "high_scatter_amp",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Yagokoro_Fantasy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "tachyonlance",
+                "WS0015": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "gravitonbeam",
+                "WS0008": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Persuasion",
+                "WS0002": "FM_Persuasion"
+            }
+        }
+    ],
+    "wings": [
+        "FM_Penglai_wing",
+        "FM_Penglai_wing",
+        "FM_Penglai_wing",
+        "FM_Penglai_wing",
+        "FM_Penglai_wing"
+    ]
+}

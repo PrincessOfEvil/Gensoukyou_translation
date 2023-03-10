@@ -1,0 +1,31 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "FM_Witch",
+    "hullMods": [
+        "targetingunit",
+        "FantasyKawausoMod",
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Witch_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "FM_Masterspark"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FM_SkySerpent_M",
+                "WS0004": "FM_SkySerpent_M"
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 12,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "FM_Byakuren",
+    "hullMods": [
+        "missleracks",
+        "targetingunit",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FM_Byakuren_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "FM_LunaticBow",
+                "WS0010": "FM_LunaticBow"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "FM_SkySerpent_M",
+                "WS0006": "FM_SkySerpent_M",
+                "WS0007": "FM_SkySerpent_M",
+                "WS0008": "FM_SkySerpent_M"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FM_Seal",
+                "WS0002": "FM_Seal",
+                "WS0003": "FM_Seal",
+                "WS0004": "FM_Seal"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "FM_Spark_pd",
+                "WS0013": "FM_Spark_pd",
+                "WS0014": "FM_Spark_pd",
+                "WS0015": "FM_Spark_pd",
+                "WS0017": "FM_Spark_pd",
+                "WS0018": "FM_Spark_pd"
+            }
+        }
+    ]
+}

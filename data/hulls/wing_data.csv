@@ -1,0 +1,26 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+FM_Amanojyak_wing,FM_Amanojyak,"bomber, bomber3, high, FM_fighter, rare_bp ",3,,7,21,V,4000,2000,450,3,BOMBER,Unmanned Bomber,22,12000,,,,,,,,,,,,,21
+FM_Crow_drone_wing,FM_Crow_drone,"no_drop, no_sell, high,",3,,6,0,CLAW,1000,500,,2,SUPPORT,Unmanned Assault Fighter,16,6000,,,,,,,,,,,,,19
+FM_Kedama_drone_wing,FM_Kedama_drone,"no_drop, no_sell, high,",3,,2,0,CLAW,2000,100,,1,SUPPORT,Unmanned Support Fighter,10,6000,,,,,,,,,,,,,19
+FM_Halfghost_wing,FM_Halfghost,"fighter2, fighter, high, FM_fighter, FM_com",2,,7,16,CLAW,4000,600,300,2,FIGHTER,Unmanned Assault Fighter,21,12000,,,,,,,,,,,,,4
+FM_Fairy_wing,FM_Fairy,"interceptor5, interceptor, high, FM_fighter, FM_com",1,,4,9,V,4000,200,600,3,INTERCEPTOR,Heavy Interceptor,15,9000,,,,,,,,,,,,,31
+FM_Fairy_bomb_wing,FM_Fairy_bomb,"bomber3, bomber, high, FM_fighter, FM_com",1,,4,10,CLAW,4000,2000,400,2,BOMBER,Light Bomber,12,10000,,,,,,,,,,,,,31
+FM_Fairy_ice_wing,FM_Fairy_ice,"fighter3, fighter, high, FM_fighter, rare_bp",2,,6,15,V,4000,300,,3,FIGHTER,Heavy Fighter,18,12000,,,,,,,,,,,,,32
+FM_Shanghai_wing,FM_Shanghai,"interceptor4, interceptor, high, FM_com, FM_fighter",1,,5,6,V,4000,500,400,4,INTERCEPTOR,Special Interceptor,7,8000,,,,,,,,,,,,,2
+FM_Penglai_wing,FM_Penglai,"fighter3, fighter, high, rare_bp, FM_fighter",2,,6,9,CLAW,4000,600,500,4,FIGHTER,Support Fighter,8,10000,,,,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,35
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,36
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,37
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,38
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,39
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,41
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,42
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,44
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,45
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,46
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,47
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,48
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,49
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,50

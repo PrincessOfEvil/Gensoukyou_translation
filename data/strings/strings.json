@@ -1,0 +1,194 @@
+{
+	"starSystems": {
+		"planet_name_hakurei": "Hakurei",
+		"planet_name_kirisame": "Kirisame",
+		"planet_name_blazing_hell": "Blazing Hell",
+		"planet_name_crino": "Cirno",
+		"planet_name_inverted_castle": "Inverted Castle"
+	},
+
+	"hullMod": {
+
+		"FM_DescriptionAndEvaluation": "Description and Evaluation",
+		"FM_Instruction": "Instructions",
+		"FM_HullModRequireBasicMod": "Cannot be installed on ships that do not have the Gensokyoyoyo Foundation Kit",
+		"FM_HullModRequireShield": "Cannot be installed on ships without shields",
+		"FM_HullModRequireFighterBay": "Hangar required",
+		"FM_HullModProblem": "Plugins are fighting",
+
+		"FantasyAliceMod_DAE_0": "A generic system based on remote control and AI flight control initially designed to reduce carrier pilot losses, but the project was cut to save just the built-in for the Alice class. \n\nThe psychic energy-based time-streaming system largely improves the combat efficiency of the ship's aircraft when approaching the carrier. However, as with common time-streaming devices in the astral domain, the psychic damage to the carrier members still exists. \n \n By allowing pilots to operate warplanes remotely from within the carrier through psychic devices does reduce combat losses. But according to very unreliable gossip, in order to use this system, the pilot's brain will be semi-permanently linked directly to the ship's AI, resulting in [data deletion].",
+		"FantasyAliceMod_DAE_1": "\"In many ways, it's a program that makes everyone happy\" \n\n —— Alice Margatroid [EXPUNGED]",
+		"FantasyAliceMod_HL_2": "Completely eliminated",
+
+		"FantasyAmuletMod_HL_0": "Size",
+		"FantasyAmuletMod_HL_1": "Second",
+		"FantasyAmuletMod_HL_2": "Energy Damage",
+
+		"FantasyBasicMod_Combat_0_T": "Low Power Explosion",
+		"FantasyBasicMod_Combat_0_D": "Time left",
+		"FantasyBasicMod_Combat_1_T": "Low Power replenishment in progress...",
+		"FantasyBasicMod_Combat_1_D": "Time left",
+		"FantasyBasicMod_Combat_2_T": "Bullet detection",
+		"FantasyBasicMod_Combat_2_D": "The number of projectiles around the self-propelled machine is",
+		"FantasyBasicMod_I_0": "The plug-in has the ability to create small psychic networks",
+		"FantasyBasicMod_I_1": "Aura Field Coordination optimizes the fleet shield system to a significant degree (reduced damage and maintenance costs) and is effective for all ships",
+		"FantasyBasicMod_I_2": "By default, this will provide 2% psionic field coordination for each ship carrying the plug-in, and the coordination is up to 25%",
+		"FantasyBasicMod_I_3": "The basic threat perception system can play a role when incoming fire density is high, but don't trust her too much...",
+		"FantasyBasicMod_SP": "Threat Awareness System Related",
+		"FantasyBasicMod_SP_0": "When the number of incoming projectiles is higher than {%s}, the ship's maneuverability and maximum speed are increased by {%s} for {%s} seconds.",
+		"FantasyBasicMod_SP_1": "There will be a cooldown of {%s} seconds at the end of each use",
+		"FantasyBasicMod_SP_2": "Also this strange system is not compatible with the common security overload in the star field and is hereby noted.",
+		"FantasyBasicMod_SP_3": "The range of action is {%s/%s/%s/%s}",
+		"FantasyBasicMod_DAE_0": "As one of the first few projects of the early unexpanded inner and outer cooperative space fleet research, the basic kit was designed with typical fantasy features such as emphasis on firepower continuity and density and neglect of anti-armor capabilities, and even installed a threat detection system that seemed to be of little use. Although the \n\n incorporates a system that facilitates cluster operations such as a psychic coordination network, a Gensoukyou Manufacture-built ship with just the basic kit installed may not be as distinctive as one might expect.",
+		"FantasyBasicMod_DAE_1": "\"Neither fantasy, nor basic, nor kit\" \n\n —— A reporter on the inside of the boundary，Shameimaru Aya",
+		"FantasyBasicMod_DAE_2": "\"But our plug-in has the ability to support the installation of other specialized plug-in degrees! \" \n\n -- science reading <Basic space combat theory that even fairies can read and understand>",
+
+		"FantasyBorderMod_Combat_0_T": "Number of remaining uses of the gap system",
+		"FantasyBorderMod_Combat_0_D": "Current",
+		"FantasyBorderMod_I_0": "The interstitial system will force shields to remain on and rapidly reduce amplitude energy levels while eliminating all hostile projectiles within the threat detection radius",
+		"FantasyBorderMod_DAE_0": "Despite the general lack of awareness of space warfare among the inhabitants of fantasy, Gensoukyou Manufactures still borrowed a number of extraordinary designs from the inside of the boundary, such as this plug-in. \n\nIt's just that even now, people in the outside world aren't quite sure what the so-called \"gap\" is, that's all.",
+		"FantasyBorderMod_DAE_1": "\"You can use this thing as an automatic BOMB, only without the manual option!\" \n\n -- some unknown youkai sage",
+
+		"FantasyBulletMod_DAE_0": "A special insert developed by Fantasy Works to deal with large targets, the improved bullet supply system using boundary Technology raised the theoretical rate of fire to a whole new level. Despite the cost of the projectile's flight speed, the project was seen as a success.",
+		"FantasyBulletMod_DAE_1": "\"Speaking of which, where did all those warheads that went out of range after the battle ended go?\" \n\n -- A fantasy engineer captain who had just repelled the Ludd Path force",
+
+		"FantasyKawausoMod_I_0": "Three spherical objects that surround the ship at a certain distance will be created and can be called otters.",
+		"FantasyKawausoMod_I_1": "Each otter can remove any missile that comes within {%s/%s/%s/%s/%s} of it directly and generate soft amplitude energy",
+		"FantasyKawausoMod_I_2": "For different classes of ships, the radius of action is different, and it is ineffective in case of overload or forced dissipation, while the higher the amplitude energy level is, the slower the system speed is.",
+		"FantasyKawausoMod_DAE_0": "Due to the general lack of sufficient weapon slots on Gensoukyou Manufacture-built ships, engineers from the inner side of the boundary designed this handy set of psychic energy anti-missile inserts. \n\nUnder ideal conditions, the system has few flaws other than generating some soft amplitude energy, but if a missile breaks right through the otters' defenses, the drawback of making the remaining PD weapons almost unusable in order to install additional psychic energy equipment is exposed ......",
+		"FantasyKawausoMod_DAE_1": "\"You should give up your other PD weapons after enjoying the help of the cute otter from hell!\" \n\n —— Manual for this plugin",
+
+		"FantasyOptionsControlMod_SP": "Current negative effects",
+		"FantasyOptionsControlMod_SP_0": "The combat radius of all aircraft on board is reduced to the original",
+		"FantasyOptionsControlMod_DAE_0": "The concept of synergy between the carrier and the aircraft carrier has been thoroughly implemented, and the mothership has been equipped with a reinforced psychic energy system to strengthen the conventional armament of the carrier in combat, which will be limited in its radius of operation due to various force majeure.",
+		"FantasyOptionsControlMod_DAE_1": "\"As we all know, the most important thing in fleet warfare is firepower, but how can we provide conventional combat ship-level firepower to aircraft carriers?\" \n\n —— A famous tactician and psychic scholar on the inside of the boundary，Kirisame Marisa",
+
+		"FantasyPlayerMod_Combat_0_T": "Armor piercing effect enhancement",
+		"FantasyPlayerMod_Combat_0_D": "Current armor piercing effect is increased to",
+		"FantasyPlayerMod_DAE_0": "\"Professional Service, No Deception!\" \n\n —— The famous aquatic technician group on the inside of the boundary",
+
+		"FantasySageMod_DAE_0": "Even among Gensoukyou Manufacture-built fleets, this kind of plug-in that relies almost entirely on boundary lining technology is not so easy to accept. \n\n Despite relying on metaphysics like psychic boosts to integrate the popular Focused Strike feature with range boosts in a single plug-in, a large number of fleet commanders still complained that the plug-in was inferior in performance to the Targeting System and Focused Targeting Core, while a few others reflected that the plug-in might be damaging to the ship's personnel's minds.",
+		"FantasySageMod_DAE_1": "\"After research and experimentation, we found that there is no such thing as a heartbeat in the Perseus star field, well, probably.\" \n\n —— Imagineering Space Tactical Research Center",
+
+		"FantasyTraditionalMod_SpecialRequire": "Can only be installed on destroyers or frigates",
+		"FantasyTraditionalMod_RangeInstruction": "Range correction instructions",
+		"FantasyTraditionalMod_RangeInstruction_0": "It provides a relatively horrible range bonus for small units in long-range combat",
+		"FantasyTraditionalMod_RangeInstruction_1": "This component gives an immediate increase in the range of the ship's energy weapons (including beams) by {%s} units for frigates and {%s} units for destroyers",
+		"FantasyTraditionalMod_RangeInstruction_2": "Note that after installing this plugin, for weapons with a range higher than {%s} units, the excess will be multiplied by {%s} times",
+		"FantasyTraditionalMod_SP": "Restrictions and other feature descriptions",
+		"FantasyTraditionalMod_SP_0": "Special general-purpose range control systems from other worlds are not compatible with advanced optical plug-ins designed for beam weapons",
+		"FantasyTraditionalMod_SP_1": "In exchange for more powerful energy weapon adaptability, the lagging bullet plug-in for the Gensoukyou Manufacture build itself is also incompatible",
+		"FantasyTraditionalMod_SP_2": "As a sign, the color of the aft flame of the ship's engine installed with this plug-in will be changed to a certain extent.",
+		"FantasyTraditionalMod_DAE_0": "A kind of polarized upgrade for small ships, a wisdom from another world. \n\n was developed with the help of some debauchers on the inner side of the boundary who observed the left path of Ludo and had a feeling for it. \n\n was widely acclaimed for being very easy to understand in its use.",
+		"FantasyTraditionalMod_DAE_1": "\"Following the old SC rule of \"common sense\", our advice is to float at a distance and then do nothing but aim and fire\" \n\n —— Kochiya Sanae， Gensoukyou Manufacture making officer(?) [???]",
+		"FantasyTraditionalMod_HL_3": "Energy"
+
+	},
+
+	"shipSystem": {
+		"FM_BorderControlInfo": "Fold the carrier aircraft to the target (other than bombers)",
+		"FM_ByakurenSystemInfo": "Boost the engine out of the sprint",
+		"FM_CrossBorderInfo": "Transmission",
+		"FM_CursedPd_FloatText": "PD System Failure!",
+		"FM_CursedPd_Target": "% PD range reduced",
+		"FM_CursedPd_Player": "% Target PD weapon range reduction",
+		"FM_EastWindInfo0": "Deflect enemy projectiles, ineffective against missiles, but the exact effect depends on the type of bullet and incoming direction",
+		"FM_EastWindInfo1": "Release bullet screen",
+		"FM_EndLessGallery": "Teleport enemy ships within a certain radius to a location far from the ship",
+		"FM_GazeOfSpectre_FloatText": "Reduced ship maneuverability",
+		"FM_GazeOfSpectre_Target": "% Maneuverability and speed reduction",
+		"FM_GazeOfSpectre_Player": "% Reduced target mobility",
+		"FM_MisfortuneAbsorbInfo0": "Reduces the damage taken by friendly forces",
+		"FM_MisfortuneAbsorbInfo1": "Damage to your own machine is increased",
+		"FM_PounceDriveInfo": "Significantly increased maneuverability and speed in the short term",
+		"FM_ReactoreExcursionInfo0": "Energy weapon damage boost",
+		"FM_ReactoreExcursionInfo1": "The chance of a weapon strike at the start is",
+		"FM_ReisenSystem_FloatText": "Posterior Warning",
+
+		"FM_SurprisingStrikeInfo1": "Fighter missile damage boost",
+		"FM_SurprisingStrikeInfo2": "Fighter maneuverability enhancement",
+		"FM_SurprisingStrikeInfo3": "Fighter non-missile weapon damage down",
+
+
+		"FM_SwordOutInfo0": "Weapon range -",
+       #"FM_SwordOutInfo1":"Damage to armor and shields is reduced to",
+		"FM_SwordOutInfo2": "Weapon rate of fire increased to",
+		"FM_SwordOutInfo3": "Weapon amplitude energy -",
+
+		"FM_WindGodDriveInfo": "Boost the engine output and enter the phase state to surge forward",
+		"FM_BlazingStarInfo": "Get a boost in acceleration and steering ability in the speed direction"
+
+
+	},
+
+	"misc": {
+		"FM_PsiEffect_T": "Psychic Field Coordination",
+		"FM_PsiEffect_D": "The current damage to our fleet shield maintenance and shield is"
+	},
+
+	"ungp": {
+		"FM_FateOfSixtyYears_Desc": "Petunia"
+	},
+
+	"event": {
+
+		"FM_ReimuBarEvent_BarScene": "A gorgeously dressed young girl is flipping through rare paper documents in the corner, her red and white attire hinting at her subtle connection to the fantasy craft, and you can feel the incredible aura she exudes, but she seems to be bothered by something.",
+		"FM_ReimuBarEvent_BarScene_Option": "Try to go up and talk to the young girl",
+
+		"FM_ReimuBarEvent_INIT_TEXT_0": "When you are ready to go to the corner to try to ask the young girl's difficulties, she speaks before you:",
+		"FM_ReimuBarEvent_INIT_TEXT_1": "\"It's always a virtue to be willing to help others, but I don't think the level of trust between us has reached the point where we are cooperative enough.\"",
+		"FM_ReimuBarEvent_INIT_TRY_TO_HELP": "\"Having said that, in this chaotic world, to gain the trust of others do not often have to trust others first?\"",
+		"FM_ReimuBarEvent_INIT_LEAVE": "Take your doubts and leave",
+		"FM_ReimuBarEvent_INIT_LEAVE_TIPS": "Maybe upgrading your relationship with the fantasy side will get you the so-called trust?",
+
+		"FM_ReimuBarEvent_TRY_TO_HELP_TEXT": "The young girl's expression changes a little, but soon returns to its previous cold state, but you still feel a decrease in hostility. So you began to take the initiative to ask the girl's difficulties.",
+		"FM_ReimuBarEvent_TRY_TO_HELP_STAGE_1": "Continue",
+
+		"FM_ReimuBarEvent_STAGE_1_TEXT_0": "\"You're one of the few Starsector humans I've seen who are so committed...\"",
+		"FM_ReimuBarEvent_STAGE_1_TEXT_1": "She sighed and began to talk about a closed world called \"Gensokyo\", but this world is full of \"monsters\", \"gods\", \"magic messengers\" and other non-scientific things, and what is even more incredible is that this world isolated by the boundary is somehow linked to the capital planet of Gensoukyou Manufacturing...",
+		"FM_ReimuBarEvent_STAGE_1_TELL_STORY": "Continue",
+		"FM_ReimuBarEvent_STAGE_1_TELL_STORY_TIPS": "Patience is a virtue (hopefully)",
+
+		"FM_ReimuBarEvent_TELL_STORT_TEXT_0": "Finally, the young girl spoke about herself.",
+		"FM_ReimuBarEvent_TELL_STORT_TEXT_1": "According to her, she originally worked as an order-keeper on the other side of the boundary, guarding the closed world, with a job that was \"stable, interesting, and just low - paying\".\n\n But times have changed, as the closed world of the fantasy land is linked to the star field, her job as a maintainer is no longer necessary.And as her boss and guardian of the youkai sage, that is, the gap between the youkai, left a paper to explain the situation and sent the young girl who has been living in fantasy for many years to the outside world is not peaceful.\n\n\"So say ah, was somehow sent to this kind of place... that old woman always make up her own mind...\"\n\n\"The most troublesome part is...\"The young girl paused for a moment.\n\n\"Unlike the petty fantasy land, this place called Starsector is full of violence and harm...\"",
+		"FM_ReimuBarEvent_TELL_STORT_TEXT_2": "\"And several of my important friends have been sent to this dangerous star field by that whimsical gap demon!\"The young girl's emotions became slightly agitated and, \"The battle here is a real fight for your life, not a bullet game! If something happens...\"",
+		"FM_ReimuBarEvent_TELL_STORT_TEXT_3": "\"I wish to save my friends from these dangers, and to do so, I must leave from this planet, but that damned gap demon didn't even leave me a single penny!\".\n\nObviously, the young girl who values friendship loses in the face of material power...",
+		"FM_ReimuBarEvent_TELL_STORT_LEAVE": "Expressed great sympathy but could not help with the matter and left",
+		"FM_ReimuBarEvent_TELL_STORT_STAGE_2": "\"I'm not some cold-hearted fourth heavenly disaster, if you're willing to work with me, I might be able to help you...\"",
+		"FM_ReimuBarEvent_TELL_STORT_STAGE_2_TIPS": "You try to evaluate inviting this young girl from fantasy to join and think about how much salary should be offered\n\n\"Well done, player\" --From the Gap Youkai",
+
+		"FM_ReimuBarEvent_STAGE_2_TEXT_0": "\"It's suspicious... but you're the first person to explicitly express a willingness to invite me...\"A trace of surprise crossed the young girl's face, and then there was no trace.",
+		"FM_ReimuBarEvent_STAGE_2_TEXT_1": "\"Anyway, thanks a lot, Starsector's mercenaries!.\"The smiling girl in front of you extends her hand to you, and although you are puzzled as to how she has moved from passive to active so quickly, you still extend your hand as envisioned.",
+		"FM_ReimuBarEvent_STAGE_2_TEXT_2": "The Hakurei Reimu will act as a normal(?) adjutant to work with you",
+		"FM_ReimuBarEvent_STAGE_2_LEAVE": "\"Happy cooperation, otherworldly maiden.\"",
+		"FM_ReimuBarEvent_STAGE_2_LEAVE_TIPS": "\"Well... Why do I think there is no difference between what you call space combat and bullet games?\"\n\n —— A maiden who has a preliminary understanding of how to operate an airship."
+
+	},
+
+	"condition": {
+		"FM_HazardRate": "{%s}Hazard Class",
+		"FM_PhantomFactory": "Paradise Science"
+	},
+
+	"skill": {
+
+		"FM_ReimuSkillInfo0": "% Speed (effective when commanding destroyers and frigates)",
+		"FM_ReimuSkillInfo1": "% Damage to ships of cruiser class or higher (effective when commanding destroyers and frigates)",
+		"FM_ReimuSkillInfo2": "% All types of ship armor and hull values"
+
+
+	}
+    # some other information maybe useful for translation (mainly Vanilla Weapons/Systems may appear in description.csv)
+    
+    # 瞬发 PD -> Brust PD Laser
+    # 相位长矛 -> Phase Lance
+    # 战术激光炮 -> Tactical Laser
+    # 引力子束 -> Graviton Beam 
+    # 星尘投射器 -> Stardust Caster
+    # 主动诱饵 -> Active Flare
+    # 反物质冲击波 -> Antimatter Blaster
+    # 赛博导弹 -> Sabot SRM
+    # 离子脉冲 -> Ion Pulser
+    # 烈焰驱动器 -> Burn Drive 
+    # 闪现 -> Phase Skimmer
+}
